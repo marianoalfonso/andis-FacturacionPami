@@ -1,0 +1,989 @@
+[Root]
+Most Recent Package=Package_1857_31072012
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Proyecto Liquidaciones\paquete instalable
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=$(AppPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=$(AppPath)\Facturaciones Cerradas
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=$(AppPath)\Icons
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Facturacion Pami
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Facturacion Pami
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Facturacion Pami]
+Icon1=Facturacion.exe
+Title1=Facturacion Pami
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Proyecto Liquidaciones\paquete instalable
+ProjectFolder=C:\Proyecto Liquidaciones\Modulo Cliente
+ServerSideCab=
+File1=C:\Proyecto Liquidaciones\paquete instalable\setup.exe
+File2=C:\Proyecto Liquidaciones\paquete instalable\Setup.Lst
+File3=C:\Proyecto Liquidaciones\paquete instalable\Facturacion.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Package_1619|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Proyecto Liquidaciones\paquete instalable
+
+[Package|Package_1619|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Package_1619|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Package_1619|Files Found]
+
+[Package|Package_1619|Files Released]
+
+[Package|Package_1619|Missing Dependency Information]
+
+[Package|Package_1619|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Package_1619|Files Added]
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=
+
+[Package|Package_1619|Files Removed]
+
+[Package|Package_1619|Files In Project]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=Yes
+
+[Package|Package_1619|Configure Registry Files]
+Applicable=No
+
+[Package|Package_1619|Configure Remote Servers]
+Applicable=No
+
+[Package|Package_1619|Install Locations]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=$(AppPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=$(AppPath)\Facturaciones Cerradas
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=$(AppPath)\Icons
+
+[Package|Package_1619|Configure Shared Files]
+Applicable=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=No
+
+[Package|Package_1619|Distribution]
+Type=single
+Size=
+Title=Facturacion Pami
+
+[Package|Package_1619|IconGroups]
+Group0=Modulo_Cliente
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Package_1619|Modulo_Cliente]
+Icon1=Facturacion.exe
+Title1=Modulo_Cliente
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Package_1619|Package]
+PackageFolder=C:\Proyecto Liquidaciones\paquete instalable
+ProjectFolder=C:\Proyecto Liquidaciones\Modulo Cliente
+ServerSideCab=
+File1=C:\Proyecto Liquidaciones\paquete instalable\setup.exe
+File2=C:\Proyecto Liquidaciones\paquete instalable\Setup.Lst
+File3=C:\Proyecto Liquidaciones\paquete instalable\Facturacion.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Package_1636|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Proyecto Liquidaciones\paquete instalable
+
+[Package|Package_1636|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Package_1636|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Package_1636|Files Found]
+
+[Package|Package_1636|Files Released]
+
+[Package|Package_1636|Missing Dependency Information]
+
+[Package|Package_1636|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Package_1636|Files Added]
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=
+
+[Package|Package_1636|Files Removed]
+
+[Package|Package_1636|Files In Project]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=Yes
+
+[Package|Package_1636|Configure Registry Files]
+Applicable=No
+
+[Package|Package_1636|Configure Remote Servers]
+Applicable=No
+
+[Package|Package_1636|Install Locations]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=$(AppPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=$(AppPath)\Facturaciones Cerradas
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=$(AppPath)\Icons
+
+[Package|Package_1636|Configure Shared Files]
+Applicable=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=No
+
+[Package|Package_1636|Distribution]
+Type=single
+Size=
+Title=Facturacion Pami
+
+[Package|Package_1636|IconGroups]
+Group0=Facturacion Pami
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Package_1636|Facturacion Pami]
+Icon1=Facturacion.exe
+Title1=Facturacion Pami
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Package_1636|Package]
+PackageFolder=C:\Proyecto Liquidaciones\paquete instalable
+ProjectFolder=C:\Proyecto Liquidaciones\Modulo Cliente
+ServerSideCab=
+File1=C:\Proyecto Liquidaciones\paquete instalable\setup.exe
+File2=C:\Proyecto Liquidaciones\paquete instalable\Setup.Lst
+File3=C:\Proyecto Liquidaciones\paquete instalable\Facturacion.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Package_1655|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Proyecto Liquidaciones\paquete instalable
+
+[Package|Package_1655|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Package_1655|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Package_1655|Files Found]
+
+[Package|Package_1655|Files Released]
+
+[Package|Package_1655|Missing Dependency Information]
+
+[Package|Package_1655|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Package_1655|Files Added]
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=
+
+[Package|Package_1655|Files Removed]
+
+[Package|Package_1655|Files In Project]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=Yes
+
+[Package|Package_1655|Configure Registry Files]
+Applicable=No
+
+[Package|Package_1655|Configure Remote Servers]
+Applicable=No
+
+[Package|Package_1655|Install Locations]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=$(AppPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=$(AppPath)\Facturaciones Cerradas
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=$(AppPath)\Icons
+
+[Package|Package_1655|Configure Shared Files]
+Applicable=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=No
+
+[Package|Package_1655|Distribution]
+Type=single
+Size=
+Title=Facturaciones Cerradas
+
+[Package|Package_1655|IconGroups]
+Group0=Facturaciones Cerradas
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Package_1655|Facturaciones Cerradas]
+Icon1=Facturacion.exe
+Title1=Facturaciones Cerradas
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Package_1655|Package]
+PackageFolder=C:\Proyecto Liquidaciones\paquete instalable
+ProjectFolder=C:\Proyecto Liquidaciones\Modulo Cliente
+ServerSideCab=
+File1=C:\Proyecto Liquidaciones\paquete instalable\setup.exe
+File2=C:\Proyecto Liquidaciones\paquete instalable\Setup.Lst
+File3=C:\Proyecto Liquidaciones\paquete instalable\Facturacion.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Package_1728|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Proyecto Liquidaciones\paquete instalable
+
+[Package|Package_1728|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Package_1728|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Package_1728|Files Found]
+
+[Package|Package_1728|Files Released]
+
+[Package|Package_1728|Missing Dependency Information]
+
+[Package|Package_1728|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Package_1728|Files Added]
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=
+
+[Package|Package_1728|Files Removed]
+
+[Package|Package_1728|Files In Project]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=Yes
+
+[Package|Package_1728|Configure Registry Files]
+Applicable=No
+
+[Package|Package_1728|Configure Remote Servers]
+Applicable=No
+
+[Package|Package_1728|Install Locations]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=$(AppPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=$(AppPath)\Facturaciones Cerradas
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=$(AppPath)\Icons
+
+[Package|Package_1728|Configure Shared Files]
+Applicable=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=No
+
+[Package|Package_1728|Distribution]
+Type=single
+Size=
+Title=Facturacion Pami
+
+[Package|Package_1728|IconGroups]
+Group0=Facturacion Pami
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Package_1728|Facturacion Pami]
+Icon1=Facturacion.exe
+Title1=Facturacion Pami
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Package_1728|Package]
+PackageFolder=C:\Proyecto Liquidaciones\paquete instalable
+ProjectFolder=C:\Proyecto Liquidaciones\Modulo Cliente
+ServerSideCab=
+File1=C:\Proyecto Liquidaciones\paquete instalable\setup.exe
+File2=C:\Proyecto Liquidaciones\paquete instalable\Setup.Lst
+File3=C:\Proyecto Liquidaciones\paquete instalable\Facturacion.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Package_1850_31072012|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Proyecto Liquidaciones\paquete instalable
+
+[Package|Package_1850_31072012|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Package_1850_31072012|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Package_1850_31072012|Files Found]
+
+[Package|Package_1850_31072012|Files Released]
+
+[Package|Package_1850_31072012|Missing Dependency Information]
+
+[Package|Package_1850_31072012|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Package_1850_31072012|Files Added]
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=
+
+[Package|Package_1850_31072012|Files Removed]
+
+[Package|Package_1850_31072012|Files In Project]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=Yes
+
+[Package|Package_1850_31072012|Configure Registry Files]
+Applicable=No
+
+[Package|Package_1850_31072012|Configure Remote Servers]
+Applicable=No
+
+[Package|Package_1850_31072012|Install Locations]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=$(AppPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=$(AppPath)\Facturaciones Cerradas
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=$(AppPath)\Icons
+
+[Package|Package_1850_31072012|Configure Shared Files]
+Applicable=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=No
+
+[Package|Package_1850_31072012|Distribution]
+Type=single
+Size=
+Title=Facturacion Pami
+
+[Package|Package_1850_31072012|IconGroups]
+Group0=Facturacion Pami
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Package_1850_31072012|Facturacion Pami]
+Icon1=Facturacion.exe
+Title1=Facturacion Pami
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Package_1850_31072012|Package]
+PackageFolder=C:\Proyecto Liquidaciones\paquete instalable
+ProjectFolder=C:\Proyecto Liquidaciones\Modulo Cliente
+ServerSideCab=
+File1=C:\Proyecto Liquidaciones\paquete instalable\setup.exe
+File2=C:\Proyecto Liquidaciones\paquete instalable\Setup.Lst
+File3=C:\Proyecto Liquidaciones\paquete instalable\Facturacion.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Package_1857_31072012|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Proyecto Liquidaciones\paquete instalable
+
+[Package|Package_1857_31072012|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Package_1857_31072012|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Package_1857_31072012|Files Found]
+
+[Package|Package_1857_31072012|Files Released]
+
+[Package|Package_1857_31072012|Missing Dependency Information]
+
+[Package|Package_1857_31072012|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Package_1857_31072012|Files Added]
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=
+
+[Package|Package_1857_31072012|Files Removed]
+
+[Package|Package_1857_31072012|Files In Project]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=Yes
+
+[Package|Package_1857_31072012|Configure Registry Files]
+Applicable=No
+
+[Package|Package_1857_31072012|Configure Remote Servers]
+Applicable=No
+
+[Package|Package_1857_31072012|Install Locations]
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=$(AppPath)
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=$(AppPath)\Facturaciones Cerradas
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=$(AppPath)\Icons
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=$(AppPath)\Icons
+
+[Package|Package_1857_31072012|Configure Shared Files]
+Applicable=Yes
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturacion.exe=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Config.ini=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Facturaciones Cerradas\default.txt=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CDROM02.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\CRDFLE12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\DISK12.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\KEY04.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\NET06.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\PENCIL01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\print_pref.ico=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRASH01.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\TRFFC19A.ICO=No
+C:\Proyecto Liquidaciones\Modulo Cliente\Icons\W95MBX01.ICO=No
+
+[Package|Package_1857_31072012|Distribution]
+Type=single
+Size=
+Title=Facturacion Pami
+
+[Package|Package_1857_31072012|IconGroups]
+Group0=Facturacion Pami
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Package_1857_31072012|Facturacion Pami]
+Icon1=Facturacion.exe
+Title1=Facturacion Pami
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Package_1857_31072012|Package]
+PackageFolder=C:\Proyecto Liquidaciones\paquete instalable
+ProjectFolder=C:\Proyecto Liquidaciones\Modulo Cliente
+ServerSideCab=
+File1=C:\Proyecto Liquidaciones\paquete instalable\setup.exe
+File2=C:\Proyecto Liquidaciones\paquete instalable\Setup.Lst
+File3=C:\Proyecto Liquidaciones\paquete instalable\Facturacion.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

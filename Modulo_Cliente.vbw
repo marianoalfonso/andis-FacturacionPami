@@ -1,0 +1,7 @@
+frmConfiguracionInicial = 137, 11, 809, 617, , 50, 50, 742, 656, C
+frmIndex = 244, 3, 936, 609, , 75, 75, 767, 681, C
+Inicio = 50, 50, 719, 656, C
+Funciones = 54, 25, 860, 631, 
+frmFacturacion = 25, 25, 920, 450, , 27, 0, 998, 785, C
+frmListadoFacturaciones = 100, 100, 1120, 733, , 196, 106, 804, 802, C
+frmAbout = 125, 125, 888, 731, C, 75, 75, 838, 681, C
