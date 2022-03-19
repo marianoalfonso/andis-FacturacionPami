@@ -1,0 +1,1 @@
+aceptar un numero de mas de 6 digitos en el importe
